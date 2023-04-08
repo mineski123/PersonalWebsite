@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("back1.png");
+  background-size: cover;
+}
+.box{
+  width: 500px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box h4{
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+
+.box p1 {
+  font-family: "Deansgate Condensed";
+  text-align: justify;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+.square {
+  width: 80%;
+  padding: 20px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-inline: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+.square {
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+}
+.square img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  border-radius: 5%;
+  margin-left: 20px;
+}
